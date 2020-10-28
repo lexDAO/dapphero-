@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hello!</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  </head>
+  <body>
+    <div>
+      <h1>
+        A test Page.
+      </h1>
+      
+      <div>
+      
+        Network ID: 
+        
+        <h2
+          style="margin-bottom: 25px"
+          data-dh-feature="network"
+          data-dh-property-id
+        >*network ID placeholder*</h2>
+
+        
+        Network Name:
+        
+          <h2
+            style="margin-bottom: 25px"
+            data-dh-feature="network"
+            data-dh-property-name
+          >*network name placeholder*</h2>
+
+        Network Provider: 
+        
+          <h2
+            style="margin-bottom: 25px"
+            data-dh-feature="network"
+            data-dh-property-provider
+          >*provider name placeholder*</h2>
+        
+        
+        
+        Network Transfer Eth: 
+
+        <input 
+            data-dh-feature="network"
+            data-dh-property-transfer="input" 
+            data-dh-property-input-name="amount" 
+            data-dh-modifier-display-units="ether"
+            placeholder="amount to send"></input>
+      
+      <br/>
+        <input
+            data-dh-feature="network" 
+            data-dh-property-transfer="input"
+            data-dh-property-input-name="address"
+            placeholder="recipient address"></input>
+    
+        <button 
+            data-dh-feature="network" 
+            data-dh-property-transfer="invoke"
+            >
+          Transfer Now
+        </button>
+    
+        <div data-dh-feature="network" data-dh-property-transfer="output">*transaction hash here*</div>
+        
+        
+        
+        
+        
+        
+        
+        Enable Button: 
+        
+        <button
+          style="margin-top: 25px"
+          data-dh-feature="network"
+          data-dh-property-enable >Enable </button>
+        
+        
+      </div>
+    </div>
+
+    <script
+      src="https://package.dapphero.io/main.js"
+      id="dh-apiKey"
+      data-api="1580767497772x353394266303889400"
+    ></script>
+  </body>
+</html>
