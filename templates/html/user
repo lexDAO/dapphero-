@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hello!</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+  <body>
+    <div>
+      <h1>
+        DappHero User Feature
+      </h1>
+      
+      <div>
+      
+        User Address: 
+        
+        <h2
+          style="margin-bottom: 25px"
+        data-dh-feature="user" 
+        data-dh-property-address="true"
+        >*User Address*</h2>
+
+        User Address (Short): 
+        
+        <h2
+          style="margin-bottom: 25px"
+        data-dh-feature="user" 
+        data-dh-property-address="true"
+        data-dh-modifier-display="short"
+        >*User Address Truncated*</h2>
+
+        
+        User Balance (In Wei):
+        
+        <h2
+          style="margin-bottom: 25px"
+          
+          data-dh-feature="user"
+          data-dh-property-balance
+        >*User Balance*</h2>
+        
+        User Balance (In ETH):
+        
+        <h2
+          style="margin-bottom: 25px"
+          
+          data-dh-feature="user"
+          data-dh-property-balance
+          data-dh-modifier-units="ether" 
+        >*User Balance*</h2> 
+      
+        User Balance, in ETH to 3 decimal places.
+        
+        <h2
+          style="margin-bottom: 25px"
+          
+          data-dh-feature="user"
+          data-dh-property-balance
+          data-dh-modifier-units="ether" 
+          data-dh-modifier-decimals="3"
+        >*User Balance*</h2>         
+        
+        
+        
+        Enable Button: 
+        
+        <button
+          style="margin-top: 25px"
+          data-dh-feature="network"
+          data-dh-property-enable >Enable </button>
+        
+        
+      </div>
+    </div>
+
+    <script
+      src="https://package.dapphero.io/main.js"
+      id="dh-apiKey"
+      data-api="1580767497772x353394266303889400"
+    ></script>
+  </body>
+</html>
